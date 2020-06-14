@@ -1,4 +1,4 @@
-<script>
+
 (() => {
   const refs = {
     openModalBtn: document.querySelector('[data-modal-open]'),
@@ -13,4 +13,4 @@
     refs.modal.classList.toggle('is-hidden');
   }
 })();
-  </script>
+ 
