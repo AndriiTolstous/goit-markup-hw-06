@@ -346,7 +346,15 @@
     
             <div> 
                 <p class="footer-text">Подпишитесь на рассылку</p>
-                <a href="" class="button-bottom">Подписаться</a>
+                <div class="footer-send">
+                    <input type="email" class="footer-text-input" name="mail" id="mail" placeholder="E-mail">
+                    <div class="footer-text-icon">
+                        <a href="" class="button-bottom">Подписаться</a>
+                        <svg class="footer-text-web" width="24px" height="24px">
+                            <use href="./image/symbol-defs.svg#icon-icon-send"></use>
+                        </svg>
+                    </div>
+                </div>
             </div>
                
         </div>    
@@ -392,11 +400,16 @@
             </div>
             <div class="last">
                 <textarea class="form-textarea" name="comment" id="comment" placeholder="Комментарий"></textarea>
-
-                <input type="checkbox" name="policy" id="policy">
-                <label class="policy" for="policy">Соглашаюсь с рассылкой и принимаю Условия договора</label>
-                <button class="send">Отправить</button>
             </div>
+                    <div class="policy"> 
+                        <label class="policy-label">
+                            <input class="checkbox" type="checkbox">
+                            <span class="checkbox-icon"></span>
+                            <span>Соглашаюсь с рассылкой и принимаю</span> </label> <a href="" class="doc">Условия договора</a>
+                        
+                    </div>
+                <button class="send">Отправить</button>
+            
 
             
         </form>
